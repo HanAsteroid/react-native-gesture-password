@@ -14,7 +14,7 @@ import Circle from './circle'
 
 const Width = Dimensions.get('window').width
 const Height = Dimensions.get('window').height
-const Top = (Height - Width)/2.0 * 1.5
+const Top = (Height - Width)/2.0 * 1
 const Radius = Width / 10
 
 export default class GesturePassword extends Component {
