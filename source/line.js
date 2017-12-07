@@ -1,6 +1,7 @@
 import { isEquals, getTransform } from './helper'
-import React, { PropTypes, Component } from 'react'
+import React, {Component } from 'react'
 import { StyleSheet, View } from 'react-native'
+import PropTypes from 'prop-types';
 
 export default class Line extends Component {
     constructor(props) {
@@ -20,7 +21,7 @@ export default class Line extends Component {
     }
 
     render() {
-        console.log(this.state)
+        // console.log(this.state)
         let { start, end, color } = this.state;
 
         if ( isEquals(start, end) ) return null;
